@@ -1,0 +1,28 @@
+[ 2017-08-10T19:55:47+08:00 ] 127.0.0.1 /onethink/www/index.php?s=/admin/repair/del/id/14.html
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000045s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\onethink\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `onethink_repair` [ RunTime:0.007810s ]
+SQL: DELETE FROM `onethink_repair` WHERE ( `id` IN ('14') ) [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `onethink_action` [ RunTime:0.008047s ]
+SQL: SELECT * FROM `onethink_action` WHERE ( `name` = 'update_channel' ) LIMIT 1   [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.007680s ]
+SQL: INSERT INTO `onethink_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`create_time`,`remark`) VALUES (9,1,2130706433,'channel',1502366146,'操作url：/onethink/www/index.php?s=/admin/repair/del/id/14.html') [ RunTime:0.000618s ]
+
+[ 2017-08-10T19:55:51+08:00 ] 127.0.0.1 /onethink/www/index.php?s=/admin/repair/del/id/13.html
+INFO: [ app_begin ] --START--
+INFO: Run Think\Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000043s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\onethink\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `onethink_repair` [ RunTime:0.007690s ]
+SQL: DELETE FROM `onethink_repair` WHERE ( `id` IN ('13') ) [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `onethink_action` [ RunTime:0.007618s ]
+SQL: SELECT * FROM `onethink_action` WHERE ( `name` = 'update_channel' ) LIMIT 1   [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `onethink_action_log` [ RunTime:0.007706s ]
+SQL: INSERT INTO `onethink_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`create_time`,`remark`) VALUES (9,1,2130706433,'channel',1502366151,'操作url：/onethink/www/index.php?s=/admin/repair/del/id/13.html') [ RunTime:0.000573s ]
+
